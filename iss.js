@@ -54,10 +54,6 @@ const fetchCoordsByIP = function (ip, callback) {
   );
 };
 
-"https://iss-pass.herokuapp.com/json/?lat=${latitude}&lon=${longitude}";
-//49.2643
-//-123.0869
-
 /**
  * Makes a single API request to retrieve upcoming ISS fly over times the for the given lat/lng coordinates.
  * Input:
